@@ -1,0 +1,20 @@
+<mjml>
+  <mj-head>
+  <mj-title>Yellow Sun</mj-title>
+    <mj-attributes>
+      <mj-text font-family="Montserrat" color="#031F2A"/>
+      <mj-class name="heading" font-family="Times New Roman" font-size="24px"/>
+      <mj-section padding="0"/>
+      <mj-image padding="0"/>
+      <mj-button>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
