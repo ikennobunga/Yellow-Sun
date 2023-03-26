@@ -3,17 +3,116 @@
   <mj-title>Yellow Sun</mj-title>
     <mj-attributes>
       <mj-text font-family="Montserrat" color="#031F2A"/>
-      <mj-class name="heading" font-family="Times New Roman" font-size="24px"/>
-      <mj-section padding="0"/>
+      <mj-class name="heading" font-family="Times New Roman" font-size="24px" text-transform="capitalize" color="#B97F74" align="center"/>
+      <mj-section padding="0" background-color="#EDE9E0"/>
       <mj-image padding="0"/>
-      <mj-button>
+      <mj-button border="2px solid #fff" background-color="transparent" padding-bottom="20px" align="center" text-transform="uppercase">
     </mj-attributes>
+
+    <mj-style>
+      @media (max-width: 480px) {
+        .mobile {
+          padding-top: 30px !important;
+        }
+      }
+    </mj-style>
   </mj-head>
 
-  <mj-body>
+  <mj-body background-color="#E2E2E2">
+    <!-- Logo -->
     <mj-section>
       <mj-column>
-        
+        <mj-text align="center" font-size="10px" padding-top="20px" color="#B97F74">
+          DON'T LET THE SUN GO DOWN ON THIS 25% OFF PROMO
+        </mj-text>
+        <mj-image src="https://i.ibb.co/9rLv27w/Yellow-Sun.png" alt="Logo" padding="30px" width="300px"/>
+        <mj-text mj-class="heading" padding-bottom="30px">
+          embrace summet solastic in style...
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-hero background-url="https://i.ibb.co/GnXq090/2ae1cec9-2d16-4dfa-a89b-cd03440b8ace.png" height="400px">
+      <mj-image src="https://i.ibb.co/9ysTT8q/Yellow-Sun2.png" alt="Sun icon" width="210px"/>
+      <mj-text mj-class="heading" color="white" padding-top="50px">
+        25% off summer staples!
+      </mj-text>
+    </mj-hero>
+
+    <!-- Protect Your Assets -->
+    <mj-section background-color="#E4917F">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/68K0ffp/Solstice-Hats.png" alt="Hats" css-class="mobile"/>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="heading" padding-top="30px" color="#fff">
+          protect your assets.
+        </mj-text>
+        <mj-text line-height="22px" align="center" color="#fff">
+          Lorem ipsum dolor sit amet, dico semper recteque est id. Lorem ipsum dolor sit amet, dico semper recteque est id. Lorem ipsum dolor sit amet, dico semper recteque est id.
+        </mj-text>
+        <mj-button>
+          <mj-text>
+            shop accessories
+          </mj-text>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Poster -->
+    <mj-hero background-url="https://i.ibb.co/NxKQ9MR/7c314331-cbbd-4014-bf1d-8aaf841ebbe8.jpg" padding-bottom="100%">
+      <mj-text mj-class="heading" padding-top="30px">
+        Shine from sun up to sun down.
+      </mj-text>
+      <mj-text line-height="22px" align="center">
+        <p>Lorem ipsum dolor sit amet, dico semper recteque est id. Lorem ipsum dolor sit amet, dico semper recteque est id. Lorem ipsum dolor sit ame.</p>
+      </mj-text>
+      <mj-button background-color="#E4917F" padding-bottom="80px">
+        shop new arrivals
+      </mj-button>
+    </mj-hero>
+
+    <!-- Step In Style -->
+    <mj-section background-color="#E4917F">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/8Khc2bH/Solstice-Sandals.png" alt="Red Shoes" css-class="mobile"/>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="heading" padding-top="30px" color="#fff">
+          step in style
+        </mj-text>
+        <mj-text line-height="22px" align="center" color="#fff">
+          Lorem ipsum dolor sit amet, dico semper recteque est id. Lorem ipsum dolor sit amet, dico semper recteque est id. Lorem ipsum dolor sit amet, dico semper recteque est id.
+        </mj-text>
+        <mj-button >
+          shop footwear
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hashtag -->
+    <mj-section background-color="#B97F74">
+      <mj-column>
+        <mj-text mj-class="heading" color="#fff" font-size="35px">
+          <p>#yellowsun</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#fff" padding-bottom="80px">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/9rLv27w/Yellow-Sun.png" alt="Logo" padding="50px 0 10px" width="300px"/>
+        <mj-text align="center" padding-bottom="30px">
+          <img src="https://i.ibb.co/tztRCDB/facebook2x.png" alt="facebook" width="30px" style="padding-right: 10px">
+          <img src="https://i.ibb.co/JjSQzZt/instagram2x.png" alt="instagram" width="30px" style="padding-right: 10px">
+          <img src="https://i.ibb.co/JjSQzZt/instagram2x.png" alt="youtube" width="30px" style="padding-right: 10px">
+        </mj-text>
+        <mj-text align="center" line-height="18px" font-size="10px" padding="0 40px">
+          <p>This message is sent to you because your email address is on our subscribers list. If you are not interested in receiving more emails like this one, just hit <span style="color: #B97F74; font-weight: bold"><u>UNSUBSCRIBE</u></span> or <span style="color: #B97F74; font-weight: bold"><u>Manage your preferences</u></span>.</p>
+          <p>We are committed to guaranteeing the security and protection of the private information that we process. To understand more about how we collect, store, and process your personal information in compliance with GDPR, please take a look at our <span style="color: #B97F74"><u>privacy policy.©2023 yellowsun</u> </p>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
